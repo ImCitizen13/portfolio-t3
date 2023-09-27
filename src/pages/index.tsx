@@ -24,6 +24,7 @@ export default function Home() {
             <a className="menu-item text-white font-Ibarra text-[clamp(3rem,8vw,8rem)] ml-48rem block pl-0 pr-[0.5vw,] pt-[clamp(0.25rem,] pb-[1rem)]" href="">Portfolio</a>
             <a className="menu-item text-white font-Ibarra text-[clamp(3rem,8vw,8rem)] ml-48rem block pl-0 pr-[0.5vw,] pt-[clamp(0.25rem,] pb-[1rem)]" href="">Contact</a>
           </div>
+          <div className="h-[100vh] w-[100vw] islamic-pattern"></div>
         </div>
     </>
   );
