@@ -1,6 +1,7 @@
 import { signIn, signOut, useSession } from "next-auth/react";
 import Head from "next/head";
 import Link from "next/link";
+import TechStack from "~/components/TechStack";
 
 import { api } from "~/utils/api";
 
@@ -11,21 +12,49 @@ export default function Home() {
     <>
       <Head>
         <title>Name Place holder</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;700&display=swap" rel="stylesheet"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        ></link>
         <meta name="description" content="Portfolion website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <div className=" bg-black min-h-screen h-100vh flex items-center ">
+      <div className=" h-100vh flex min-h-screen items-center bg-black ">
+
           <div className="menu-items ml-[clamp(4rem,20vw,48rem)]">
-            <a className="menu-item hover:placeholder-opacity-100 text-white font-Ibarra text-[clamp(3rem,8vw,8rem)] ml-48rem block pl-0 pr-[0.5vw,] pt-[clamp(0.25rem,] pb-[1rem)]" href="">Home</a>
-            <a className="menu-item  text-white font-Ibarra text-[clamp(3rem,8vw,8rem)] ml-48rem block pl-0 pr-[0.5vw,] pt-[clamp(0.25rem,] pb-[1rem)]" href="">About</a>
-            <a className="menu-item text-white font-Ibarra text-[clamp(3rem,8vw,8rem)] ml-48rem block pl-0 pr-[0.5vw,] pt-[clamp(0.25rem,] pb-[1rem)]" href="">Portfolio</a>
-            <a className="menu-item text-white font-Ibarra text-[clamp(3rem,8vw,8rem)] ml-48rem block pl-0 pr-[0.5vw,] pt-[clamp(0.25rem,] pb-[1rem)]" href="">Contact</a>
+            <a
+              className="menu-item font-Ibarra ml-48rem pt-[clamp(0.25rem,] pb-[1rem)] block pl-0 pr-[0.5vw,] text-[clamp(3rem,8vw,8rem)] text-white hover:placeholder-opacity-100"
+              href="#"
+            >
+              Home
+            </a>
+            <a
+              className="menu-item  font-Ibarra ml-48rem pt-[clamp(0.25rem,] pb-[1rem)] block pl-0 pr-[0.5vw,] text-[clamp(3rem,8vw,8rem)] text-white"
+              href="/about"
+            >
+              About
+            </a>
+            <a
+              className="menu-item font-Ibarra ml-48rem pt-[clamp(0.25rem,] pb-[1rem)] block pl-0 pr-[0.5vw,] text-[clamp(3rem,8vw,8rem)] text-white"
+              href=""
+            >
+              Portfolio
+            </a>
+            <a
+              className="menu-item font-Ibarra ml-48rem pt-[clamp(0.25rem,] pb-[1rem)] block pl-0 pr-[0.5vw,] text-[clamp(3rem,8vw,8rem)] text-white"
+              href=""
+            >
+              Contact
+            </a>
           </div>
-          <div className="h-[100vh] w-[100vw] islamic-pattern"></div>
+          
+          
+          <div className="dotted-menu-background-pattern"></div>
         </div>
+        
+        
     </>
   );
 }
