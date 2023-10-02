@@ -30,12 +30,12 @@ export default function Home() {
             >
               Home
             </a>
-            <a
+            <Link
               className="menu-item  font-Ibarra ml-48rem pt-[clamp(0.25rem,] pb-[1rem)] block pl-0 pr-[0.5vw,] text-[clamp(3rem,8vw,8rem)] text-white"
               href="/about"
             >
               About
-            </a>
+            </Link>
             <a
               className="menu-item font-Ibarra ml-48rem pt-[clamp(0.25rem,] pb-[1rem)] block pl-0 pr-[0.5vw,] text-[clamp(3rem,8vw,8rem)] text-white"
               href=""

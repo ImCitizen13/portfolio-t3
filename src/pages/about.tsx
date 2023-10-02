@@ -68,7 +68,7 @@ export default function About() {
     <>
     <div className={`pb-[50px] min-w-screen flex min-h-screen flex-col items-center justify-center bg-[#${backGroundColor}] text-white`}>
       <span className="m-[15px] p-[12px]">
-        here are all the tech and skills that I've aquired over the years
+        here are all the tech and skills that I`&apos;`ve aquired over the years
       </span>
         <TechStack {...frontEndTechStack} />
         <TechStack {...backEndTechStack} />

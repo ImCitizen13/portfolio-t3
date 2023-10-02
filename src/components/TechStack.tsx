@@ -34,7 +34,7 @@ export default function TechStack({ techList, title }: TechStackProps) {
       <h1 className=" font-Ibarra mb-8 text-6xl">{title}</h1>
       <div className="flex flex-row gap-4">
         {techList.map((tech) => {
-          return <TechView {...tech} />;
+          return <TechView key={title} {...tech} />;
         })}
       </div>
     </div>
