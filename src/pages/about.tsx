@@ -6,11 +6,11 @@ import TechStack, {
 const frontEndTechStack: TechStackProps = {
   title: "Front-End",
   techList: [
-    { imgSrc: "logos/frontend/react.svg", alt: "ReactJS" },
-    { imgSrc: "logos/frontend/tailwind.svg", alt: "TailWind" },
-    { imgSrc: "logos/frontend/javascript.svg", alt: "Javascript" },
-    { imgSrc: "logos/frontend/css.svg", alt: "CSS3" },
-    { imgSrc: "logos/frontend/html.svg", alt: "html5" },
+    { imgSrc: "logos/front-end/react.svg", alt: "ReactJS" },
+    { imgSrc: "logos/front-end/tailwind.svg", alt: "TailWind" },
+    { imgSrc: "logos/front-end/javascript.svg", alt: "Javascript" },
+    { imgSrc: "logos/front-end/css.svg", alt: "CSS3" },
+    { imgSrc: "logos/front-end/html.svg", alt: "html5" },
   ],
 };
 
