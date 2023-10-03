@@ -6,23 +6,23 @@ import TechStack, {
 const frontEndTechStack: TechStackProps = {
   title: "Front-End",
   techList: [
-    { imgSrc: "logos/FrontEnd/react.svg", alt: "ReactJS" },
-    { imgSrc: "logos/FrontEnd/tailwind.svg", alt: "TailWind" },
-    { imgSrc: "logos/FrontEnd/javascript.svg", alt: "Javascript" },
-    { imgSrc: "logos/FrontEnd/css.svg", alt: "CSS3" },
-    { imgSrc: "logos/FrontEnd/html.svg", alt: "html5" },
+    { imgSrc: "logos/frontend/react.svg", alt: "ReactJS" },
+    { imgSrc: "logos/frontend/tailwind.svg", alt: "TailWind" },
+    { imgSrc: "logos/frontend/javascript.svg", alt: "Javascript" },
+    { imgSrc: "logos/frontend/css.svg", alt: "CSS3" },
+    { imgSrc: "logos/frontend/html.svg", alt: "html5" },
   ],
 };
 
 const backEndTechStack: TechStackProps = {
   title: "Back-End",
   techList: [
-    { imgSrc: "logos/backEnd/nodejs.svg", alt: "NodeJs" },
-    { imgSrc: "logos/backEnd/nestjs.svg", alt: "NestJs" },
-    { imgSrc: "logos/backEnd/vercel.svg", alt: "Vercel" },
-    { imgSrc: "logos/backEnd/typescript.svg", alt: "TypeScript" },
-    { imgSrc: "logos/backEnd/prisma.svg", alt: "Prisma" },
-    { imgSrc: "logos/backEnd/nextjs.svg", alt: "Nextjs" },
+    { imgSrc: "logos/backend/nodejs.svg", alt: "NodeJs" },
+    { imgSrc: "logos/backend/nestjs.svg", alt: "NestJs" },
+    { imgSrc: "logos/backend/vercel.svg", alt: "Vercel" },
+    { imgSrc: "logos/backend/typescript.svg", alt: "TypeScript" },
+    { imgSrc: "logos/backend/prisma.svg", alt: "Prisma" },
+    { imgSrc: "logos/backend/nextjs.svg", alt: "Nextjs" },
   ],
 };
 
@@ -52,13 +52,13 @@ const web3TechStack: TechStackProps = {
   const aiTechStack: TechStackProps = {
     title: "Machine Learning/AI",
     techList: [
-      { imgSrc: "logos/web3/python.svg", alt: "Python" },
-      { imgSrc: "logos/web3/tensorflow.svg", alt: "TensorFlow" },
-      { imgSrc: "logos/web3/pytorch.svg", alt: "Pytorch" },
-      { imgSrc: "logos/web3/pandas.svg", alt: "Pandas" },
-      { imgSrc: "logos/web3/matplotlib.svg", alt: "MatPlotLib" },
-      { imgSrc: "logos/web3/scikitlearn.svg", alt: "ScikitLearn" },
-      { imgSrc: "logos/web3/numpy.svg", alt: "Numpy" },
+      { imgSrc: "logos/ai/python.svg", alt: "Python" },
+      { imgSrc: "logos/ai/tensorflow.svg", alt: "TensorFlow" },
+      { imgSrc: "logos/ai/pytorch.svg", alt: "Pytorch" },
+      { imgSrc: "logos/ai/pandas.svg", alt: "Pandas" },
+      { imgSrc: "logos/ai/matplotlib.svg", alt: "MatPlotLib" },
+      { imgSrc: "logos/ai/scikitlearn.svg", alt: "ScikitLearn" },
+      { imgSrc: "logos/ai/numpy.svg", alt: "Numpy" },
     ],
   };
 
