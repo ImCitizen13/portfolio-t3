@@ -1,3 +1,4 @@
+import NavBar from "~/components/NavBar";
 import TechStack, {
   TechStackProps,
   TechViewProps,
@@ -13,6 +14,15 @@ const frontEndTechStack: TechStackProps = {
     { imgSrc: "logos/front-end/html.svg", alt: "html5" },
   ],
 };
+
+const designTechStack: TechStackProps = {
+    title: "Design",
+    techList: [
+      { imgSrc: "logos/design/figma.svg", alt: "Figma" },
+      { imgSrc: "logos/design/gimp.svg", alt: "Gimp" },
+      { imgSrc: "logos/design/inkscape.svg", alt: "Inkscape" },
+    ],
+  };
 
 const backEndTechStack: TechStackProps = {
   title: "Back-End",
@@ -66,6 +76,7 @@ export default function About() {
     const backGroundColor = "262525"
   return (
     <>
+    <NavBar/>
     <div className={`pb-[50px] min-w-screen flex min-h-screen flex-col items-center justify-center bg-[#262525] text-white`}>
       <span className="m-[15px] p-[12px]">
         here are all the tech and skills that I&apos;ve aquired over the years
@@ -75,8 +86,9 @@ export default function About() {
         <TechStack {...web3TechStack} />
         <TechStack {...mobileTechStack} />
         <TechStack {...aiTechStack} />
+        <TechStack {...designTechStack} />
     </div>
-    <div className="dotted-menu-background-pattern"></div>
+    {/* <div className="dotted-menu-background-pattern"></div> */}
     </>
   );
 }

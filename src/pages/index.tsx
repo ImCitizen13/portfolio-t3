@@ -12,13 +12,6 @@ export default function Home() {
     <>
       <Head>
         <title>Name Place holder</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;700&display=swap"
-          rel="stylesheet"
-        ></link>
-        <meta name="description" content="Portfolion website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className=" h-100vh flex min-h-screen items-center bg-black ">
