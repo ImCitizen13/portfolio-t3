@@ -17,12 +17,12 @@ const frontEndTechStack: TechStackProps = {
 const backEndTechStack: TechStackProps = {
   title: "Back-End",
   techList: [
-    { imgSrc: "logos/BackEnd/nodejs.svg", alt: "NodeJs" },
-    { imgSrc: "logos/BackEnd/nestjs.svg", alt: "NestJs" },
-    { imgSrc: "logos/BackEnd/vercel.svg", alt: "Vercel" },
-    { imgSrc: "logos/BackEnd/typescript.svg", alt: "TypeScript" },
-    { imgSrc: "logos/BackEnd/prisma.svg", alt: "Prisma" },
-    { imgSrc: "logos/BackEnd/nextjs.svg", alt: "Nextjs" },
+    { imgSrc: "logos/backEnd/nodejs.svg", alt: "NodeJs" },
+    { imgSrc: "logos/backEnd/nestjs.svg", alt: "NestJs" },
+    { imgSrc: "logos/backEnd/vercel.svg", alt: "Vercel" },
+    { imgSrc: "logos/backEnd/typescript.svg", alt: "TypeScript" },
+    { imgSrc: "logos/backEnd/prisma.svg", alt: "Prisma" },
+    { imgSrc: "logos/backEnd/nextjs.svg", alt: "Nextjs" },
   ],
 };
 
@@ -52,13 +52,13 @@ const web3TechStack: TechStackProps = {
   const aiTechStack: TechStackProps = {
     title: "Machine Learning/AI",
     techList: [
-      { imgSrc: "logos/ai/python.svg", alt: "Python" },
-      { imgSrc: "logos/ai/tensorflow.svg", alt: "TensorFlow" },
-      { imgSrc: "logos/ai/pytorch.svg", alt: "Pytorch" },
-      { imgSrc: "logos/ai/pandas.svg", alt: "Pandas" },
-      { imgSrc: "logos/ai/matplotlib.svg", alt: "MatPlotLib" },
-      { imgSrc: "logos/ai/scikitlearn.svg", alt: "ScikitLearn" },
-      { imgSrc: "logos/ai/numpy.svg", alt: "Numpy" },
+      { imgSrc: "logos/web3/python.svg", alt: "Python" },
+      { imgSrc: "logos/web3/tensorflow.svg", alt: "TensorFlow" },
+      { imgSrc: "logos/web3/pytorch.svg", alt: "Pytorch" },
+      { imgSrc: "logos/web3/pandas.svg", alt: "Pandas" },
+      { imgSrc: "logos/web3/matplotlib.svg", alt: "MatPlotLib" },
+      { imgSrc: "logos/web3/scikitlearn.svg", alt: "ScikitLearn" },
+      { imgSrc: "logos/web3/numpy.svg", alt: "Numpy" },
     ],
   };
 
@@ -66,9 +66,9 @@ export default function About() {
     const backGroundColor = "262525"
   return (
     <>
-    <div className={`pb-[50px] min-w-screen flex min-h-screen flex-col items-center justify-center bg-[#${backGroundColor}] text-white`}>
+    <div className={`pb-[50px] min-w-screen flex min-h-screen flex-col items-center justify-center bg-[#262525] text-white`}>
       <span className="m-[15px] p-[12px]">
-        here are all the tech and skills that I`&apos;`ve aquired over the years
+        here are all the tech and skills that I&apos;ve aquired over the years
       </span>
         <TechStack {...frontEndTechStack} />
         <TechStack {...backEndTechStack} />
