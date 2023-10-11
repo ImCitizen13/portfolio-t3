@@ -16,8 +16,13 @@ function TechView({ imgSrc, alt }: TechViewProps) {
   const divStyle = "flex h-[128px] w-[128px] items-center justify-center rounded-[15px] bg-[#D9D9D9]" //dark:bg-[#FFFFFF]"
   const imageStyle = "h-102.4px w-102.4px"
   return (
-    <div
-      className={divStyle}
+    /*
+bounce2
+swing
+wobble
+*/
+    <div 
+      className={divStyle + " bounce2"}
     >
       <Image
         className={imageStyle}
@@ -32,9 +37,9 @@ function TechView({ imgSrc, alt }: TechViewProps) {
 
 export default function TechStack({ techList, title }: TechStackProps) {
   return (
-    <div className=" m-16 flex flex-col  items-center justify-center">
-      <h1 className=" font-Ibarra mb-8 text-6xl">{title}</h1>
-      <div className="flex flex-row gap-4">
+    <div className="flex flex-col items-center justify-center gap-10">
+      <span className=" font-Ibarra text-6xl">{title}</span>
+      <div className="flex flex-row gap-4 flex-wrap">
         {techList.map((tech) => {
           return <TechView key={tech.alt} {...tech} />;
         })}

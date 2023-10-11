@@ -10,11 +10,7 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>Name Place holder</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div className=" h-100vh flex min-h-screen items-center bg-black ">
+<div className=" h-100vh flex min-h-screen items-center bg-black ">
 
           <div className="menu-items ml-[clamp(4rem,20vw,48rem)]">
             <a
@@ -44,11 +40,10 @@ export default function Home() {
           </div>
           
           
-          <div className="dotted-menu-background-pattern"></div>
+          {/* <div className="dotted-menu-background-pattern"></div> */}
         </div>
         
-        
-    </>
+    </> 
   );
 }
 

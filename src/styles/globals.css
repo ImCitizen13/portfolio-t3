@@ -1,6 +1,95 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('animations.css');
+
+
+html{
+  background-color: #262525;
+  font-family: "Ibarra Real Nova", serif;
+  color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* overflow: auto; */
+}
+
+.navLinks > li, a, button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+
+header > nav {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 auto; */
+  gap: 3rem;
+  background-color: #262525;
+  /* padding-bottom: 50px; */
+  flex-wrap: wrap;
+  /* max-width: 1143px; */
+}
+
+.navLink {
+  transition: 0.3s;
+}
+
+.navLink:hover{
+  opacity: 1;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 30px 10%; */
+  margin: 0 auto;
+}
+
+header > img {
+  cursor: pointer;
+}
+
+.navLinks {
+  list-style: none;
+}
+
+.navLinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navLinks li a {
+  transition: all 0.3s ease 0s;
+}
+
+
+.navLinks li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+
 
 :root {
   --primary-color: #000000;

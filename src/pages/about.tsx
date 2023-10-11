@@ -31,6 +31,7 @@ const backEndTechStack: TechStackProps = {
     { imgSrc: "logos/backend/nestjs.svg", alt: "NestJs" },
     { imgSrc: "logos/backend/vercel.svg", alt: "Vercel" },
     { imgSrc: "logos/backend/typescript.svg", alt: "TypeScript" },
+    { imgSrc: "logos/backend/aws.svg", alt: "AWS" },
     { imgSrc: "logos/backend/prisma.svg", alt: "Prisma" },
     { imgSrc: "logos/backend/nextjs.svg", alt: "Nextjs" },
   ],
@@ -76,8 +77,8 @@ export default function About() {
     const backGroundColor = "262525"
   return (
     <>
-    <NavBar/>
-    <div className={`pb-[50px] min-w-screen flex min-h-screen flex-col items-center justify-center bg-[#262525] text-white`}>
+    {/* <NavBar/> */}
+    <div className={"pb-[50px] min-w-screen flex flex-col items-center justify-center bg-[#262525] text-white flex-wrap p-20px gap-12"}>
       <span className="m-[15px] p-[12px]">
         here are all the tech and skills that I&apos;ve aquired over the years
       </span>
